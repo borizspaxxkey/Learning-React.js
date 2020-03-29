@@ -16,11 +16,11 @@
 <body>
   <div id='root'></div>
   <script type="text/babel">
-    const Hello = (props) => {
+    const Hello = ({ library, message }) => {
       return (
         <div className="heading">
-          <h1>Welcome to {props.library}</h1>
-          <p>{props.message}</p>
+          <h1>Welcome to {library}</h1>
+          <p>{message}</p>
         </div>)
     }
 
