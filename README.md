@@ -7,3 +7,8 @@ react-scripts is just a wrapper around all of the tooling packages needed, like 
 create-react-app lake-app
 npm install
 npm start
+npm run build
+
+// SERVE
+npm install -g serve
+serve -s build
